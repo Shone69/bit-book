@@ -1,0 +1,349 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.profileCard {
+  margin-top: 4% !important;
+  margin-bottom: 10%;
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  -webkit-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  -moz-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  background-image: url("https://atgbcentral.com/data/out/23/4086081-earth-from-space.jpg");
+  background-attachment: fixed;
+}
+
+.profileImg {
+  margin-top: 5%;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  -webkit-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  -moz-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+}
+
+.aboutSection {
+  z-index: 1;
+  margin: 0;
+  padding: 10px;
+}
+
+.aboutBorder {
+  border: 3px solid rgb(4, 204, 47);
+  border-radius: 25px;
+  margin-bottom: 1%;
+}
+
+.commentCard {
+  background: rgba(160, 160, 160, 0.2)
+}
+
+.headCss {
+  background-image: url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0ae83373fe7bf60aaf6ceb8daa337fc9&auto=format&fit=crop&w=1357&q=80");
+  background-color: rgb(4, 204, 47);
+  margin-bottom: 2%;
+}
+
+.videoCard {
+  margin-top: 10px;
+  background-image: url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0ae83373fe7bf60aaf6ceb8daa337fc9&auto=format&fit=crop&w=1357&q=80");
+}
+
+.imageCard {
+  margin-top: 10px;
+  background-image: url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0ae83373fe7bf60aaf6ceb8daa337fc9&auto=format&fit=crop&w=1357&q=80");
+}
+
+.postCard {
+  margin-top: 20px;
+  background-image: url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0ae83373fe7bf60aaf6ceb8daa337fc9&auto=format&fit=crop&w=1357&q=80");
+}
+
+.card {
+  background-color: black !important;
+  -webkit-box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+  -moz-box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+  box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+}
+
+.card-action {
+  color: white;
+  -webkit-box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+  -moz-box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+  box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+}
+
+a {
+  color: white !important;
+  padding-left: 2%;
+}
+
+#logoc,
+#peoplec,
+#profilec,
+#feedc {
+  color: white !important;
+  margin: 0px 20px;
+}
+
+.commentBox {
+  margin: 0 auto;
+  float: left;
+  margin-top: 7%;
+  background-color: white;
+  height: 70%;
+  padding: 15px !important;
+  background-color: rgba(255, 255, 255, 0.925) !important;
+  -webkit-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  -moz-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+}
+
+.commentAvatar {
+  margin-top: 20%;
+  -webkit-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  -moz-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+}
+
+.avatarName {
+  position: relative;
+  padding-top: 20%;
+  color: white;
+  left: 20%;
+  top: 20px;
+}
+
+.sendButton {
+  color: white;
+  position: relative;
+}
+
+.buttonForm {
+  position: relative;
+  top: 50px;
+  left: 100%;
+  background-color: #424342 !important;
+}
+
+.postCommentBox {
+  color: white !important;
+  border: 1px solid grey;
+  -webkit-box-shadow: inset 0px 0px 53px -16px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset 0px 0px 53px -16px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 0px 53px -16px rgba(0, 0, 0, 1);
+  padding: 2%;
+  position: relative;
+}
+
+.abcd {
+  padding: 2%;
+  background-color: black;
+  left: 18%;
+  position: relative;
+  width: 100%;
+  -webkit-box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+  -moz-box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+  box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+}
+
+.textColor {
+  color: white;
+}
+
+p {
+  padding: 2%;
+}
+
+.imageText {
+  color: white;
+}
+
+.searchBar {
+  width: 70% !important;
+  margin-left: 15%;
+  margin-top: 1%;
+  background-image: url("https://media0.giphy.com/media/uFmH8za4E6M5STIiTu/giphy.gif");
+}
+
+.profilesCard {
+  width: 100%;
+}
+
+.profilesImg {
+  -webkit-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  -moz-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+  box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1) !important;
+}
+
+.profilesName {
+  color: white;
+}
+
+.profilesAbout {
+  color: white;
+  text-align: center;
+}
+
+.profilesLastPost {
+  color: white;
+  float: right;
+}
+
+* {
+  word-wrap: break-word;
+}
+
+#dropdown1 {
+  margin: 2%;
+  padding-left: 20px;
+  padding-top: 10px;
+  -webkit-box-shadow: inset 0px 0px 54px 17px rgb(48, 3, 209);
+  -moz-box-shadow: inset 0px 0px 54px 17px rgb(48, 3, 209);
+  box-shadow: inset 0px 0px 54px 17px rgba(48, 3, 209);
+  background-color: rgb(255, 255, 255);
+}
+
+/* #dropDown1>li:hover {
+  background-color: rgb(11, 2, 143);
+} */
+
+.dropDown {
+  position: relative;
+  float: left;
+  left: 100px;
+  top: 20px;
+}
+
+.btn {
+  background-color: black !important;
+  -webkit-box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+  -moz-box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+  box-shadow: inset 0px 0px 54px 3px rgba(101, 113, 245, 1) !important;
+  border-radius: 50px !important;
+}
+
+.proba {
+  background-image: url("https://media3.giphy.com/media/BFHj2VF4vi3GE/giphy.gif");
+  background-size: cover;
+}
+
+.proba1 {
+  background-image: url("https://media.giphy.com/media/107KlThVAe0M0w/giphy.gif");
+  background-size: contain;
+}
+
+.proba2 {
+  background-image: url("https://media.giphy.com/media/TFFjQhKeij24U/giphy.gif");
+  background-size: cover;
+}
+
+.proba3 {
+  background-image: url("https://media.giphy.com/media/zJaq1z9Aujyow/giphy.gif");
+  background-size: cover;
+}
+
+.page-footer {
+  padding-top: 0;
+  background-color: rgb(1, 224, 49) !important;
+  min-height: 70px;
+  margin-top: 5%;
+  background-image: url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0ae83373fe7bf60aaf6ceb8daa337fc9&auto=format&fit=crop&w=1357&q=80");
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container.mainFeed {
+  background-image: url("https://i.giphy.com/media/qRY3cPYRkyQh2/giphy.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1);
+  -moz-box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1);
+  box-shadow: 6px 7px 25px -5px rgba(15, 15, 15, 1);
+}
+
+.editPic {
+  margin-bottom: 0;
+}
+
+.editModal2 {
+  width: 40%;
+  margin-right: 0;
+}
+
+.noMarg {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.editProfile {
+  align-content: center;
+}
+
+.inputName {
+  position: relative;
+  left: 200px;
+  bottom: 150px;
+}
+
+.button {
+  position: relative;
+  left: 15px;
+}
+
+.inputDesc {
+  position: relative;
+  bottom: 55px;
+}
+
+.buttonsOfModelUser {
+  position: relative;
+  left: 380px;
+}
+
+.editModal {
+  width: 35% !important;
+  background-color: green !important;
+}
+.login{
+background-color: white!important;
+}
